@@ -1,3 +1,6 @@
+
+//FINISHED 2/13 WORKSHOP
+
 #[starknet::interface]
 trait ICounter<T> {
     fn get_counter(self: @T) -> u32;
